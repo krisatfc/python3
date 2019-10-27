@@ -1,0 +1,16 @@
+# Calculate the Perimeter of a Decagon 
+# In geometry, a decagon is a ten-sided polygon or 10-gon. 
+# A regular decagon has all sides of equal length and 
+# each internal angle will always be equal to 144 degrees.
+  
+# Function for finding the perimeter 
+def CalPeri(): 
+    s = 5
+    Perimeter = 10 * s 
+  
+    print ("The Perimeter of Decagon is : "
+           , Perimeter)  
+  
+# Driver code 
+if __name__ == '__main__': 
+    CalPeri(); 
